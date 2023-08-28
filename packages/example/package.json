@@ -1,0 +1,22 @@
+{
+    "name": "@armathai/example",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "index.html",
+    "main": "dist/index.js",
+    "author": "https://github.com/armathai",
+    "description": "Example for Lego",
+    "private": true,
+    "scripts": {
+        "start": "rimraf dist && parcel --port 8080"
+    },
+    "dependencies": {
+        "@armathai/three-particles": "*",
+        "lil-gui": "^0.18.2",
+        "stats.js": "^0.17.0",
+        "three": "^0.155.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.6.2"
+    }
+}
